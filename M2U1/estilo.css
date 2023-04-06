@@ -1,0 +1,20 @@
+.destacado {
+    background: rgb(28,18,204);
+    background: linear-gradient(137deg, rgba(28,18,204,1) 28%, rgba(0,212,255,1) 100%);
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 40px; 
+    border: 10px solid orangered;
+    border-radius: 0px 15px 0px 15px;
+    box-shadow: 11px 8px 16px 1px rgba(0,0,0,0.77);
+}
+
+div p{
+    column-count: 3;
+    column-gap: 34px;
+    column-rule: 3px dashed #46ebbc;
+    background-color: rgb(255, 0, 225);
+    font-family: 'Orbitron', sans-serif;
+    
+}
