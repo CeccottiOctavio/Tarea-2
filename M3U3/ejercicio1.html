@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       const valor = parseInt(prompt("Ingrese la distancia: "))
+
+       if (valor==0 || valor <=1000){
+        document.write("Tenes que ir a pie")
+       }
+       else if (valor==1001 || valor <=10000){
+        document.write("Tenes que ir en Biciclete")
+       }
+       else if (valor==10001 || valor<=30000){
+        document.write("Tenes que ir en Colectivo")
+       }
+       else if (valor==30001 || valor <=100000){
+        document.write("Tenes que ir en Auto")
+       }
+       else {document.write("Tenes que ir en Avion")
+       } 
+        
+    </script>
+</body>
+</html>
