@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="box1" class="box1"></div>
+        <div id="box2" class="box2"></div>
+        <div id="box3" class="box3"></div>
+    </div>
+
+
+    <script>
+        const box1 = document.getElementById("box1");
+        const box2 = document.getElementById("box2");
+        const box3 = document.getElementById("box3");
+        const body = document.body;
+
+        box1.addEventListener("click", function () {
+            body.style.backgroundColor = "#f00";
+        }); 
+
+        box2.addEventListener("click", function () {
+            body.style.backgroundColor = "#0f0";
+        }); 
+
+        box3.addEventListener("click", function () {
+            body.style.backgroundColor = "#00f";
+        }); 
+
+    </script>
+</body>
+
+</html>

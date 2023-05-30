@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+}
+
+.box1  {
+    background-color: #f00;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    
+}
+
+.box2  {
+    background-color: #0f0;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    
+}
+
+.box3  {
+    background-color: #00f;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    
+}
