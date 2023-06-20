@@ -1,20 +1,17 @@
+import { Link } from "react-router-dom";
+import Styles from './Nav.module.css';
+
 const Nav = (props) => {
-    return(
-        <nav>
-        <ul class="holder">
-            <li><a class="activo" href="index.html">Home</a></li>
-            <li><a href="Nosotros.html">Nosotros</a></li>
-            <li><a href="Servicios.html">Servicios</a></li>
-            <li><a href="Galeria.html">Galeria</a></li>
-            <li><a href="Novedades.html">Novedades</a></li>
-            <li><a href="Contacto.html">Contacto</a></li>
-        </ul>
+  return (
+    <nav className={Styles.nav}>
+      <ul className={Styles.aling}>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/Nosotros">Nosotros</Link></li>
+        <li><Link to="/Servicio">Servicio</Link></li>
+        <li><Link to="/Contacto">Contacto</Link></li>
+      </ul>
     </nav>
-        
-        
-    )
-        
-    
+  );
 }
 
 export default Nav;
