@@ -1,0 +1,19 @@
+
+p {
+    margin-left: 860px;
+    font-size: 17px;
+    font-family:'Lora', serif; 
+    color: #c56586;
+  }
+
+  .btn-danger{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 5px;
+  }
+
+  .btn-danger:hover {
+    color: #f00;
+  }
